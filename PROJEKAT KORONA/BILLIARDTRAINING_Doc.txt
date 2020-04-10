@@ -1,0 +1,9 @@
+Plan ovog projekta je da napravim sto realniju verziju engleskog bilijara ( manji sto od onog na koji smo navikli i samo 3 kugle ) .
+Moram prvo detaljnije da se upoznam sa svim pravilima ove dzentlmenske igre, posto ih ni sam sve ne poznajem.
+Tu su svi standardni rekviziti na koje smo navikli kada je pitanju bilo koja slicna igra, sto, stap i kugle.
+Sve ostalo mi je prilicno nepoznato.
+Zadatak mi je da sto realnije moguce prikazem ovu igru, te ce mi biti potrebna znanja iz raznih oblasti.
+Fizika, matematika, GameTheory itd.
+Deluje zanimljivo i zaista se radujem ovom zadatku.
+Neka zabava pocne!
+

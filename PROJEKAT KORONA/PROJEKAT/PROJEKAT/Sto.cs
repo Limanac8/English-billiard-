@@ -7,8 +7,7 @@ using System.Drawing;
 
 namespace BILLIARDTRAINING
 {
-    
-    
+
     
     class Sto
     {

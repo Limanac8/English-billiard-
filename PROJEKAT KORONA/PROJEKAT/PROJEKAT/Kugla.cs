@@ -9,7 +9,7 @@ namespace BILLIARDTRAINING
 {
     class Kugla
     {
-        private float r = (float)2.8;
+        private float r = (float)10;
 
         private int x;
 
@@ -36,5 +36,15 @@ namespace BILLIARDTRAINING
             get { return y; }
             set { y = value; }
         }
+        
+        public Kugla(Color c)
+        {
+            Boja = c;
+        }
+        public Kugla()
+        {
+
+        }
+
     }
 }

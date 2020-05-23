@@ -46,6 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormGlavna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGlavna.Designer.cs">
+      <DependentUpon>FormGlavna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPocetna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPocetna.Designer.cs">
+      <DependentUpon>FormPocetna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Igrac.cs" />
     <Compile Include="Kugla.cs" />
     <Compile Include="Sto.cs" />
     <Compile Include="Form1.cs">
@@ -59,6 +72,12 @@
     <Compile Include="Stap.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGlavna.resx">
+      <DependentUpon>FormGlavna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPocetna.resx">
+      <DependentUpon>FormPocetna.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

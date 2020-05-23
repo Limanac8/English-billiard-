@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ArrayOfIgrac xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Igrac>
+    <Highscore>1</Highscore>
+    <TrenutniSkor>0</TrenutniSkor>
+    <Ime>Pero</Ime>
+    <Prezime>sdaf</Prezime>
+    <Nick>BOB</Nick>
+    <Password>123</Password>
+  </Igrac>
+</ArrayOfIgrac>

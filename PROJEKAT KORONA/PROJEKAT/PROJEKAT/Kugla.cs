@@ -9,13 +9,31 @@ namespace BILLIARDTRAINING
 {
     class Kugla
     {
-        private float r = (float)10;
+        private float r;
 
-        private int x;
+        private PointF lokacija;
+       
 
-        private int y;
+        private float dx ;
+
+        private float dy;
+
+        private bool uRupi ;
+
+        private float jacina ;
 
         private Color boja;
+
+        public bool URupi
+        {
+            get { return uRupi; }
+            set { uRupi = value; }
+        }
+        public PointF Lokacija
+        {
+            get { return lokacija; }
+            set { lokacija = value; }
+        }
 
         public float R
         {
@@ -26,24 +44,42 @@ namespace BILLIARDTRAINING
             get { return boja; }
             set { boja = value; }
         }
-        public int X
+        public float Jacina
         {
-            get { return x; }
-            set { x = value; }
+            get { return jacina; }
+            set { jacina = value; }
         }
-        public int Y
+        public float Dx
         {
-            get { return y; }
-            set { y = value; }
+            get { return dx; }
+            set { dx = value; }
         }
-        
+        public float Dy
+        {
+            get { return dy; }
+            set { dy = value; }
+        }
+
+
         public Kugla(Color c)
         {
             Boja = c;
-        }
+             r = (float)8;
+
+   
+
+
+         dx = 1;
+      
+      uRupi = false;
+
+      jacina = 1;
+
+        
+    }
         public Kugla()
         {
-
+            
         }
 
     }

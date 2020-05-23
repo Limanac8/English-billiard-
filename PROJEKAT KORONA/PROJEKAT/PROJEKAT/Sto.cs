@@ -11,87 +11,57 @@ namespace BILLIARDTRAINING
     
     class Sto
     {
-        private float sirinaUnutra = 198;
+        private int stoX ;
 
-        private float visinaUnutra = 99;
+        private int stoY ;
 
-        private float visinaSpolja = 137;
+        private int duzina ;
 
-        private float sirinaSpolja = 236;
+        private int sirina ;
 
-        private float srednjaRupaPrecnik = 13;
+        private int srednjaX;
 
-        private float cosakRupaPrecnik = (float)11.6;
-
-        private Stap stap;
-
-        private Kugla bela;
-
-        private Kugla crvena; 
-
-        private Kugla zuta;
+        
 
         
 
         public Sto()
         {
-            stap = new Stap();
-            bela = new Kugla();
-            bela.Boja = Color.White;
-            //bela.x = ?
-            //bela.y = ?
-            zuta = new Kugla();
-            zuta.Boja = Color.Yellow;
-            //crna.x = ?
-            //crna.y = ?
-            crvena = new Kugla();
-            crvena.Boja = Color.Red;
-            //crvena.x = ?
-            //crvena.y = ?
-        }
-        public float SirinaUnutra
-        {
-            get { return sirinaUnutra; }
-        }
-        public float VisinaUnutra
-        {
-            get { return visinaUnutra; }
-        }
-        public float VisinaSpolja
-        {
-            get { return visinaSpolja; }
-        }
-        public float SirinaSpolja
-        {
-            get { return sirinaSpolja; }
-        }
-        public float SrednjaRupaPrecnik
-        {
-            get { return srednjaRupaPrecnik; }
-        }
-        public float CosakRupaPrecnik
-        {
-            get { return cosakRupaPrecnik; }
-        }
+            stoX = 30;
+            stoY = 30;
+            duzina = 684;
 
-        public Stap Stap
-        {
-            get { return stap; }
-        }
+             sirina = 354;
 
-        public Kugla Bela
-        {
-            get { return bela; }
-        }
-        public Kugla Crvena
-        {
-            get { return crvena; }
-        }
+            srednjaX = 360;
 
-        public Kugla Zuta
+    }
+    public float StoX
         {
-            get { return zuta; }
+            get { return stoX; }
         }
+        public float StoY
+        {
+            get { return stoY; }
+        }
+       
+        public float Duzina
+        {
+            get { return duzina; }
+        }
+        public float Sirina
+        {
+            get { return sirina; }
+        }
+        public float SrednjaX
+        {
+            get { return srednjaX; }
+        }
+       
+
+
+
+
 
 
     }

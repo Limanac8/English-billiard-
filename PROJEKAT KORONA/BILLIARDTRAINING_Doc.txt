@@ -1,9 +1,10 @@
-Plan ovog projekta je da napravim sto realniju verziju engleskog bilijara ( manji sto od onog na koji smo navikli i samo 3 kugle ) .
-Moram prvo detaljnije da se upoznam sa svim pravilima ove dzentlmenske igre, posto ih ni sam sve ne poznajem.
-Tu su svi standardni rekviziti na koje smo navikli kada je pitanju bilo koja slicna igra, sto, stap i kugle.
-Sve ostalo mi je prilicno nepoznato.
-Zadatak mi je da sto realnije moguce prikazem ovu igru, te ce mi biti potrebna znanja iz raznih oblasti.
-Fizika, matematika, GameTheory itd.
-Deluje zanimljivo i zaista se radujem ovom zadatku.
+Plan ovog projekta se promenio. 
+Sada je plan da se napravi trening bilijara. 
+Dakle igrac ubacuje kugle u rupe pritom dobijajuci poen za ubacenu crvenu i gubeci poen za ubacenu belu.
+Pokusao sam da napravim sto realisticniju verziju igre, koliko to koriscena tehnologija dozvoljava.
+Plan je da se omoguci i login sistem sa podacima koji ce se skladistiti u nekom XML fajlu. 
+Cuvace se i highscore za svakog registrovanog igraca, koji ce se prikazivati na ekranu zajedno sa nadimkom.
+
 Neka zabava pocne!
+
 

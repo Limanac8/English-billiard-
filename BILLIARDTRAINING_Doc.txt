@@ -7,3 +7,46 @@ Fizika, matematika, GameTheory itd.
 Deluje zanimljivo i zaista se radujem ovom zadatku.
 Neka zabava pocne!
 
+Objasnjenje funkcionalnosti:
+
+ 1. FormGlavna.cs 
+ " public partial class FormGlavna : Form" Omogucuje login igraca u igricu i registrovanje novog igraca.
+ 
+"public FormGlavna()" je konstruktor i sem osnovnih funkcionalnosti u njemu se serializuje i deserializuje xml fajl sa podacima o korisnicima.
+ 
+"private void Button1_Click(object sender, EventArgs e)" otvara novu "FormPocetna" formu.
+  
+"private void Button2_Click(object sender, EventArgs e)" otvara novu "FrmIgra" ukoliko su podaci uneti u prethodno otvorenoj formi tipa "FormPocetna" u skladu sa podacima iz xmla, tj. ako je pronadjen igrac sa tim nickom i passwordom.
+   
+  
+  2. FormPocetna.cs
+  "public partial class FormPocetna : Form" Klasa za dodavanje novog igraca, motede:
+  
+ "private void BtnDodaj_Click(object sender, EventArgs e)" podacima iz textboxova popunjava objekat klase Igrac i zatim podatke sacuvava u xml fajl.
+ 
+ 3.  Form1.cs
+ "public partial class FrmIgra : Form" Klasa koja sadrzi kompletan gameplay igre, metode:
+ 
+ "public FrmIgra(int indeks)" Konstruktor u kom se inicijalizuju polja i deserializuje xml fajl sa podacima o igracima.
+ 
+ "public void iscrtajKugle()" Metoda za iscratavanje kugli.
+ 
+ "public void iscrtajTablu()" Metoda za iscrtavanje svega ostalog sa forme.
+ 
+ "private void PnlCrtaj_Paint(object sender, PaintEventArgs e)" Metoda poziva iscrtajKugle() i iscrtajTablu().
+ 
+ "private void PnlSto_MouseDown(object sender, MouseEventArgs e)" Metoda se poziva na pritisak levog klika misa omogucava nastavak igre ukoliko je klik bio u neposrednoj blizini pozicije bele kugle. 
+ 
+ "private void PnlSto_MouseUp(object sender, MouseEventArgs e)" Metoda se poziva na otpustanje levog klika misa i tada se racuna smer kretanja, takodje poziva metodu odredi jacinu, koja izracunava brzinu kretanja.
+ 
+ "private float Udaljenost(PointF a, PointF b)" Metoda vraca udaljenost izmedju dve tacke.
+ 
+  "private void odrediJacinu(Kugla a)" Metoda odredjuje brzinu kretanja bele kugle.
+  
+  "private void Potez()" Glavna metoda ovog projekta, sadrzi sve provere u vezi sa kretanjem i omogucava samo kretanje. Ubrzavai  usporava kugle, racuna uticaj trenja, racuna trenutni skor i hajskor...
+  
+  "private void TAJMER_Tick(object sender, EventArgs e)" Metoda koja na tik tajmera pokrece metode  Potez(),iscrtajKugle(),pnlSto.Invalidate() i postavlja vrednost labele za trenutni skor.
+ 
+ 
+  
+  

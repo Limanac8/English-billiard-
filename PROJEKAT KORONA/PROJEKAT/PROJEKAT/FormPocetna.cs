@@ -33,12 +33,17 @@ namespace BILLIARDTRAINING
             I.Nick = textBox3.Text;
             I.Password = textBox4.Text;
             
+            XmlSerializer xmlSer = new XmlSerializer(typeof(List<Igrac>));
+            StreamReader streamReader = new StreamReader(Environment.CurrentDirectory + "\\igraci.xml");
+            lista = (List<Igrac>)xmlSer.Deserialize(streamReader);
+            streamReader.Close();
             lista.Add(I);
             Stream stream = File.OpenWrite(Environment.CurrentDirectory + "\\igraci.xml");
             XmlSerializer ser = new XmlSerializer(typeof(List<Igrac>));
             ser.Serialize(stream, lista);
             stream.Close();
             btnDodaj.Enabled = false;
+
         }
 
         private void FormPocetna_Load(object sender, EventArgs e)

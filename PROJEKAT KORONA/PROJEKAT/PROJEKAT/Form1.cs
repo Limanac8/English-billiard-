@@ -97,6 +97,7 @@ namespace BILLIARDTRAINING
             belaPrava = new PointF(bela.Lokacija.X + bela.R, bela.Lokacija.Y + bela.R);
             crvenaPrava = new PointF(crvena.Lokacija.X + crvena.R, crvena.Lokacija.Y + crvena.R);
             indeksIgraca = indeks;
+            
             XmlSerializer xmlSer = new XmlSerializer(typeof(List<Igrac>));
             StreamReader streamReader = new StreamReader(Environment.CurrentDirectory + "\\igraci.xml");
             lista = (List<Igrac>)xmlSer.Deserialize(streamReader);

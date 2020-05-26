@@ -23,9 +23,7 @@ namespace BILLIARDTRAINING
         {
             InitializeComponent();
             lista = new List<Igrac>();
-           
-           
-           
+            
             XmlSerializer xmlSer = new XmlSerializer(typeof(List<Igrac>));
             StreamReader streamReader = new StreamReader(Environment.CurrentDirectory + "\\igraci.xml");
             lista = (List<Igrac>)xmlSer.Deserialize(streamReader);

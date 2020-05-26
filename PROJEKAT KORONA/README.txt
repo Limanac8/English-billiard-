@@ -1,4 +1,2 @@
-User interface is made to be intuitive for everyone.
-I think user shoud have no trouble figuring it out. 
-Just start the project and everything else should come with ease.
-ENJOY!
+
+Za otvaranje igrice, potrebno je downloadovati kompletan prilozen folder. Zatim je potrebno otvoriti solution klikom na PROJEKAT.sln. Za pokretanje igre tada je potrebno kliknuti dugme start i time pokrenuti program. 

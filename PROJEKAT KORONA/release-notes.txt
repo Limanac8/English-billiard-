@@ -2,3 +2,4 @@ v0.1 Project still in development. 3 classes written a lot more to go.
 v0.2 Project still in development. Done first graphical improvements.
 v0.3 Project still in development. We are getting there.
 v0.4 project almost finished. Still need to ask for some final touches.
+v1 project finished
